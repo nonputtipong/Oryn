@@ -82,7 +82,7 @@ Before every response, GravityClaw performs **hybrid retrieval** across 4 source
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-username/GravityClaw.git
+git clone https://github.com/nonputtipong/GravityClaw.git
 cd GravityClaw
 npm install
 ```

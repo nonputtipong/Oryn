@@ -1,0 +1,28 @@
+{
+  "name": "gravity-claw",
+  "version": "0.2.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "gmail:auth": "tsx scripts/gmail_auth.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.0",
+    "node-cron": "^3.0.3",
+    "openai": "^4.85.4",
+    "sqlite-vec": "^0.1.7-alpha.2",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.13.4",
+    "@types/node-cron": "^3.0.11",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

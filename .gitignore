@@ -1,0 +1,33 @@
+# Environment & secrets
+.env
+credentials.json
+token.json
+
+# User data (personal memories, notes, etc.)
+data/
+notes/
+soul.md
+execution/
+
+# Intermediate files
+.tmp/
+
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Assessment & docs
+Assessment 2 Autonomous AI Agents Handout.pdf
+Assessment2_Report.md
+Assessment2_Report.pdf
+OVERVIEW.md
+OVERVIEW.pdf

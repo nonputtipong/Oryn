@@ -131,9 +131,7 @@ project-root/
 
 You sit between human intent (directives) and deterministic execution (Python scripts). Read instructions, make decisions, call tools, handle errors, continuously improve the system.
 
-Be pragmatic. Be reliable. Self-anneal.\n
----
-
+Be pragmatic. Be reliable. Self-anneal.
 ## Oryn Project-Specific Conventions
 
 ### 🤖 Oryn Tech Stack

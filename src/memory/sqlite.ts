@@ -6,7 +6,7 @@ import { resolve } from "path";
 import { mkdirSync, existsSync } from "fs";
 
 const DATA_DIR = resolve(process.cwd(), "data");
-const DB_PATH = resolve(DATA_DIR, "gravity-claw.db");
+const DB_PATH = resolve(DATA_DIR, "oryn.db");
 
 let db: Database.Database;
 

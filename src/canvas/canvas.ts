@@ -28,7 +28,7 @@ const CANVAS_HTML = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gravity Claw — Live Canvas</title>
+<title>Oryn — Live Canvas</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -80,7 +80,7 @@ const CANVAS_HTML = `<!DOCTYPE html>
 <body>
   <div id="header">
     <div class="dot" id="statusDot"></div>
-    <h1>🦀 Gravity Claw — Live Canvas</h1>
+    <h1>🦀 Oryn — Live Canvas</h1>
   </div>
   <div id="canvas"></div>
   <div id="status">Connecting...</div>

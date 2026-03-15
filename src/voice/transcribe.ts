@@ -32,7 +32,7 @@ export async function transcribeAudio(fileUrl: string): Promise<string> {
     }
 
     const buffer = Buffer.from(await response.arrayBuffer());
-    const tempPath = resolve(tmpdir(), `gravity-claw-voice-${Date.now()}.ogg`);
+    const tempPath = resolve(tmpdir(), `oryn-voice-${Date.now()}.ogg`);
 
     try {
         await writeFile(tempPath, buffer);

@@ -141,7 +141,7 @@ async function connectStdio(name: string, config: MCPServerConfig): Promise<void
         await sendRequest(name, "initialize", {
             protocolVersion: "2024-11-05",
             capabilities: {},
-            clientInfo: { name: "gravity-claw", version: "0.2.0" },
+            clientInfo: { name: "oryn", version: "0.2.0" },
         });
         // Send initialized notification
         sendNotification(name, "notifications/initialized", {});

@@ -28,7 +28,7 @@ import { getFactCount, getRecentFacts } from "./memory/sqlite.js";
 import { listScheduledTasks } from "./scheduler/cron.js";
 
 // ── Load configuration ──────────────────────────────────────────────
-console.log("🚀 Starting Gravity Claw...\n");
+console.log("🚀 Starting Oryn...\n");
 
 const config = loadConfig();
 
@@ -141,7 +141,7 @@ bot.command("start", async (ctx) => {
     if (!userId || !isAllowedUser(userId, config.allowedUserIds)) return;
 
     await ctx.reply(
-        "🤖 *Gravity Claw online.*\n\n" +
+        "🤖 *Oryn online.*\n\n" +
         "I'm your personal AI assistant. Here's what I can do:\n\n" +
         "*Commands:*\n" +
         "• /status — Bot status & stats\n" +
@@ -386,7 +386,7 @@ setInterval(() => {
 }, 24 * 60 * 60 * 1000);
 
 // ── Start the bot ────────────────────────────────────────────────────
-console.log("\n🤖 Gravity Claw is online! Listening for Telegram messages...");
+console.log("\n🤖 Oryn is online! Listening for Telegram messages...");
 console.log("   Press Ctrl+C to stop.\n");
 
 bot.start();

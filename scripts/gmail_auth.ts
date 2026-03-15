@@ -108,7 +108,7 @@ const server = createServer(async (req, res) => {
                 console.log("    To get a new refresh token, go to https://myaccount.google.com/permissions");
                 console.log("    Revoke access for your app, and run this script again.");
             } else {
-                console.log("\n✅ You can now restart your Gravity Claw agent.");
+                console.log("\n✅ You can now restart your Oryn agent.");
             }
 
             res.end(`

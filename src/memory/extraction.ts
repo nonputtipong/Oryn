@@ -25,8 +25,8 @@ export function initExtraction(apiKey: string, model?: string): void {
         baseURL: "https://openrouter.ai/api/v1",
         apiKey,
         defaultHeaders: {
-            "HTTP-Referer": "https://github.com/gravity-claw",
-            "X-Title": "Gravity Claw",
+            "HTTP-Referer": "https://github.com/oryn",
+            "X-Title": "Oryn",
         },
     });
     if (model) extractionModel = model;

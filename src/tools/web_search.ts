@@ -14,7 +14,7 @@ async function searchDuckDuckGo(query: string, maxResults: number = 5): Promise<
 
     const response = await fetch(url, {
         headers: {
-            "User-Agent": "Mozilla/5.0 (compatible; GravityClaw/1.0)",
+            "User-Agent": "Mozilla/5.0 (compatible; Oryn/1.0)",
         },
     });
 

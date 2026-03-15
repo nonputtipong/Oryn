@@ -55,7 +55,7 @@ function getStatus(ctx: CommandContext): string {
     const uptime = uptimeHrs > 0 ? `${uptimeHrs}h ${uptimeMin % 60}m` : `${uptimeMin}m`;
 
     return (
-        `🤖 *Gravity Claw Status*\n\n` +
+        `🤖 *Oryn Status*\n\n` +
         `• Uptime: ${uptime}\n` +
         `• Model: \`${ctx.agent.getModel()}\`\n` +
         `• Context length: ${ctx.agent.historyLength} messages\n` +

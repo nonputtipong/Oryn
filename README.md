@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 GravityClaw
+# 🤖 Oryn
 
 **A Personal Autonomous AI Agent with Persistent Memory**
 
@@ -15,9 +15,9 @@
 
 ---
 
-## ✨ What is GravityClaw?
+## ✨ What is Oryn?
 
-GravityClaw is more than a chatbot — it's a **fully autonomous AI agent** that runs locally on your machine and communicates through Telegram. It can:
+Oryn is more than a chatbot — it's a **fully autonomous AI agent** that runs locally on your machine and communicates through Telegram. It can:
 
 - 🧠 **Remember** everything you tell it across sessions (Mem0-inspired memory)
 - 🔧 **Use 39 tools** autonomously — files, shell, web search, email, calendar, and more
@@ -45,11 +45,11 @@ flowchart LR
     Bot -->|text and optional voice| U
 ```
 
-**The ReAct Loop** — GravityClaw uses an agentic Reason + Act loop (up to 10 iterations per message). The LLM autonomously decides which tools to call, chains their results, and extracts facts into long-term memory after every exchange.
+**The ReAct Loop** — Oryn uses an agentic Reason + Act loop (up to 10 iterations per message). The LLM autonomously decides which tools to call, chains their results, and extracts facts into long-term memory after every exchange.
 
 ## 🧠 Memory System
 
-Inspired by [Mem0](https://mem0.ai), GravityClaw has a three-tier memory architecture:
+Inspired by [Mem0](https://mem0.ai), Oryn has a three-tier memory architecture:
 
 | Tier | Storage | Purpose |
 |------|---------|---------|
@@ -57,7 +57,7 @@ Inspired by [Mem0](https://mem0.ai), GravityClaw has a three-tier memory archite
 | **Episodic** | SQLite | Past conversation summaries |
 | **Semantic** | SQLite + FTS5 + sqlite-vec | Extracted facts with vector + keyword search |
 
-Before every response, GravityClaw performs **hybrid retrieval** across 4 sources: vector similarity, full-text keywords, knowledge graph, and episodic recall.
+Before every response, Oryn performs **hybrid retrieval** across 4 sources: vector similarity, full-text keywords, knowledge graph, and episodic recall.
 
 ## 🔧 39 Tools
 
@@ -82,8 +82,8 @@ Before every response, GravityClaw performs **hybrid retrieval** across 4 source
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/nonputtipong/GravityClaw.git
-cd GravityClaw
+git clone https://github.com/nonputtipong/Oryn.git
+cd Oryn
 npm install
 ```
 
@@ -195,7 +195,7 @@ src/
 
 ## 🔌 MCP Support
 
-GravityClaw can connect to external [Model Context Protocol](https://modelcontextprotocol.io) servers. Create `mcp_servers.json` in the project root:
+Oryn can connect to external [Model Context Protocol](https://modelcontextprotocol.io) servers. Create `mcp_servers.json` in the project root:
 
 ```json
 {

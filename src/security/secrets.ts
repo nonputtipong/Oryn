@@ -6,7 +6,7 @@ import { getDatabase } from "../memory/sqlite.js";
 const ALGORITHM = "aes-256-gcm";
 const KEY_LENGTH = 32;
 const IV_LENGTH = 16;
-const SALT = "gravity-claw-secrets-v1";
+const SALT = "oryn-secrets-v1";
 
 let derivedKey: Buffer | null = null;
 
